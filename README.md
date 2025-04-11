@@ -1,8 +1,8 @@
 # SQL-Project-music-Store-_Business-problem
 # Project Overview
-**The objective of this project is to leverage SQL queries to extract meaningful insights from the Music Store database. The database contains information about customers, invoices, tracks, genres, artists, and more. By analyzing this data, we can gain valuable insights into the business operations of the music store.
+The objective of this project is to leverage SQL queries to extract meaningful insights from the Music Store database. The database contains information about customers, invoices, tracks, genres, artists, and more. By analyzing this data, we can gain valuable insights into the business operations of the music store.
 
-1. **Who is the senior most employee based on job title?
+1. **Who is the senior most employee based on job title.
 ```sql
 SELECT title, last_name, first_name 
 FROM employee
@@ -10,7 +10,7 @@ ORDER BY levels DESC
 LIMIT 1
 
 ```
-/* Q2: Which countries have the most Invoices? */
+2.**Which countries have the most Invoices.
 
 SELECT COUNT(*) AS c, billing_country 
 FROM invoice
